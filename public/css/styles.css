@@ -1,0 +1,40 @@
+ /**
+ * styles.css
+*
+ * Global CSS.
+ */
+
+h1,h2,h3,h4
+{
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.index_main{
+	margin-left : 3%;
+	margin-right : 3%;
+	margin-top :4%;
+	margin-bottom : 4%;
+	padding-left : 3%;
+	padding-right : 3%;
+	padding-top :1%;
+	padding-bottom : 1%;
+	background-color:#ffffff;
+	
+}
+
+#index_main_head{
+	text-align:center;
+}
+
+.login_btn , .registration_btn{
+	margin-top:7%;
+	margin-bottom:1%
+}
+
+#login_fb{
+	text-align:center;
+	font-weight:bold;
+}
+
+
+
