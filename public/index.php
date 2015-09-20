@@ -77,14 +77,14 @@
 				mkdir("../public/img/user/$id" ,0777 );	
 				
 					// upload profile pic
-					//logo image saving directory
+					//profile image saving directory
 				$target_dir = "../public/img/user/".$id."/";
 				//profile pic  path with unique image names
 				$target_file_path = $target_dir .time(). basename($_FILES["profilePic"]["name"]);
 				
 				if (move_uploaded_file($_FILES["profilePic"]["tmp_name"], $target_file_path)) 
 				{
-					//add logo path to user info row in db
+					//add profile pic path to user info row in db
 					query("UPDATE user SET  profilePic = ?  WHERE id = ?" , $target_file_path, $id);
 					dump("regoistration succxfull");
 				 
