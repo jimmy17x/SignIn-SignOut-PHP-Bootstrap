@@ -6,7 +6,7 @@
      */
 
     //  database's name
-    define("DATABASE", "jimmyx_halloween");
+    define("DATABASE", "food");
 
     //  database's password
     define("PASSWORD", "");

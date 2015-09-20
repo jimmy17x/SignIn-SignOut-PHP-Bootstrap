@@ -1,5 +1,5 @@
 <section class="registration_main col col-lg-12">
-	<form  class = "registration form-horizontal"  action = "../public/index.php" method = "post">
+	<form  class = "registration form-horizontal"  action = "../public/index.php" method = "post"  enctype="multipart/form-data">
 		<legend><h2><b>Register</b></h2></legend>
 			<fieldset>
 				<section class=" registration_user col">
@@ -19,6 +19,15 @@
 						</div><!-- controls -->
 							   
 				</section><!-- fullname row -->
+				
+				<section class=" registration_email col">
+					<label class=" control-label " for="email"> Email
+					</label>
+						<div class="controls">
+							<input class="form-control  " name="email" placeholder="email" type="email" required= ""/>
+						</div><!-- controls -->
+							   
+				</section><!-- email row -->
 				
                   <section class="registration_pass col">
                       <label class="control-label " for="password">Password
@@ -43,9 +52,8 @@
 				    <label class="control-label " for="passconfirm">Profile Pic
                      </label>
 					<div class="controls">
-						<input id = "profilePic" class  = "form-control col col-lg-7" style = "padding:0px" type="file" name="profile" id ="profile"  required= "" />
+						<input id = "profilePic" class  = "form-control col col-lg-7" style = "padding:0px" type="file" name="profilePic"   required= "" />
 					</div><!-- form-group password -->
-				
 				</div><!-- profile-->
                           
                    <section class="registration_btn col col-md-12">
