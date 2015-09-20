@@ -43,7 +43,7 @@
 				    <label class="control-label " for="passconfirm">Profile Pic
                      </label>
 					<div class="controls">
-						<input class  = "form-control col col-lg-7" style = "padding:0px" type="file" name="profile" id ="profile"  required= "" />
+						<input id = "profilePic" class  = "form-control col col-lg-7" style = "padding:0px" type="file" name="profile" id ="profile"  required= "" />
 					</div><!-- form-group password -->
 				
 				</div><!-- profile-->

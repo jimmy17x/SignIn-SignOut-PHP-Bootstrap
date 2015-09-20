@@ -5,7 +5,7 @@
 				<b> Login or create a new Account </b> <br>
 			 </h1>
 			<h3>
-				<legend>Know rules like a pro and then break them like an artist</legend>
+				<i>Know rules like a pro and then break them like an artist</i>
 			</h3>
 			
 		</div>
