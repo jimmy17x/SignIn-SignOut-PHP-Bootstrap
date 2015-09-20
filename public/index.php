@@ -18,7 +18,38 @@
 		//if user requested login
 		if(isset($_POST["login"]))
 		{
-			dump("login");
+			 //save username and password of login from via post
+			 $username = $_POST["username"];
+			 $pass =  $_POST["password"];
+			 
+			//query database for user credintal check
+		$rows = query("SELECT * from user where username = ?", $username);
+		
+		if(count($rows) == 1)
+		{
+			
+			//first and only row 
+			$row = $rows[0];
+			
+            // compare md5 hash of user's input against hash that's in database
+            if (md5($pass) === $row["password"])
+            {
+				
+                // remember that user's now logged in by storing user's ID in session
+                $_SESSION["id"] = $row["id"];
+
+                // redirect to portfolio
+                dump("login sucxesxfukkl");
+				exit;
+            }
+			
+		}
+		
+		 // else apologize
+        apologize("Invalid username and/or password.");
+		exit;
+			 
+			 
 		}
 		else if (isset($_POST["registration"])) // else if user requested resgisteration
 		{
