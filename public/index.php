@@ -5,10 +5,10 @@
 	 //configurations
 	 require("../includes/config.php");
 	
-	//if the user is already has  a login session render home page
+	//if the user is already has  a login session redirect to home page
 	if(isset($_SESSION["id"]))
 	{
-		//render("index_v.php");
+		//redirect("home.php");
 		//exit;
 	}
 	
