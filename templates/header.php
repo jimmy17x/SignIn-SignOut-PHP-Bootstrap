@@ -14,7 +14,7 @@
 		<title>Sign In / Sign Up </title>
         </head>
 
-    <body style = "background-color:#E2E0E0;">
+    <body style = "background-color:#E2E0E0;" >
 		<!-- BODY PAGE CONTENT -->
 		
 		<!-- add javascripts -->

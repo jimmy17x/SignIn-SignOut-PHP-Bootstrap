@@ -30,7 +30,7 @@
                            
 			</fieldset>
 	</form><!-- login form-->
-	<div> <a href= "#"> Forgot Password ?  </a></div>
+	<div> <a href= "forgot.php"> Forgot Password ?  </a></div>
 		<section id = "login_fb">
 			Or  
 			<br>

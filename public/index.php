@@ -39,7 +39,7 @@
                 $_SESSION["id"] = $row["id"];
 
                 // redirect to portfolio
-                dump("login sucxesxfukkl");
+               redirect("home.php");
 				exit;
             }
 			
@@ -86,7 +86,7 @@
 				{
 					//add profile pic path to user info row in db
 					query("UPDATE user SET  profilePic = ?  WHERE id = ?" , $target_file_path, $id);
-					dump("regoistration succxfull");
+					redirect("home.php");
 				 
 				} 
 				else 
