@@ -34,7 +34,7 @@
 		<section id = "login_fb">
 			Or  
 			<br>
-			<a href="#"><img src='../public/img/facebook.png'></img></a> <br>
+			<a href="fblogin.php"><img src='../public/img/facebook.png'></img></a> <br>
 		</section>	
 	
 </section><!-- login_main -->

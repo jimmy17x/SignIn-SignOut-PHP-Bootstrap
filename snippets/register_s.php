@@ -65,12 +65,13 @@
 					
 			</fieldset>
 	</form><!-- registration form -->
-	
+	<!-- 
 			<section id = "login_fb">
 				Or  
 				<br>
 				<a href="#"><img src='../public/img/facebookr.png'></img></a> <br>
-			</section>
+			</section> 
+			-->
                            
 </section><!-- registration_main -->
 					
