@@ -18,23 +18,62 @@ h1,h2,h3,h4
 	padding-right : 3%;
 	padding-top :1%;
 	padding-bottom : 1%;
-	background-color:#ffffff;
 	
 }
 
 .arena_profile_detail{
 	text-align:left;'
-	
+}	
+a {
+    color: #070708;
+    text-decoration: none;
+}
+
+.hone,.htwo{
+	padding-left:1%;
+	padding-right:1%;
+}
+
+#index_main_h1, #index_main_h2{
+	background:#D4D0D0  ;
+	margin-left : 3%;
+	margin-right : 3%;
+	margin-top :1%;
+	margin-bottom : 1%;
 	
 }	
 
 .forgot{
 	text-align:center;
 }
-
-#index_main_head{
-	text-align:center;
+.checkbox{
+	padding-left :2%;
+	padding-right : 1%;
 }
+
+#index_main_head ,.index_main_content_form{
+	
+	margin-left : 3%;
+	margin-right : 3%;
+	text-align:center;
+	margin-bottom : 0.5%;
+	padding-left : 2%;
+	padding-right : 2%;
+	background:#ffffff;
+	
+}
+
+.index_main_content{
+	margin-left : 3%;
+	margin-right : 3%;
+	margin-bottom : 0.5%;
+	padding-left : 2%;
+	padding-right : 2%;
+	background:#ffffff;
+	
+}
+
+
 
 .login_btn , .registration_btn{
 	margin-top:7%;

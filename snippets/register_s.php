@@ -1,6 +1,17 @@
 <section class="registration_main col col-lg-12">
 	<form  class = "registration form-horizontal"  action = "../public/index.php" method = "post"  enctype="multipart/form-data">
-		<legend><h2><b>Register</b></h2></legend>
+		<legend>
+			<h3>
+				<section class = "hone row">
+					<div id = "index_main_h1" class = "col-lg-6">
+						 <b>New Account :</b> 
+					 </div>
+					 <div class =  "col-lg-6 i_main_h1_right">
+					</div>
+		       </section> <!--hone-->
+				
+			</h3>
+		</legend>
 			<fieldset>
 				<section class=" registration_user col">
 					<label class=" control-label " for="username"> Username
@@ -55,6 +66,21 @@
 						<input id = "profilePic" class  = "form-control col col-lg-7" style = "padding:0px" type="file" name="profilePic"   required= "" />
 					</div><!-- form-group password -->
 				</div><!-- profile-->
+					
+					<section class = "promote col">
+							<div>
+								<section class = "hone row">
+									<div id = "index_main_h1" class = "col-lg-11">
+										<div class="checkbox col-lg-12">
+											<label><input type="checkbox" value="">Please inform me of upcoming promotions and news </label>
+										</div> 
+									 </div>
+									<div class =  "col-lg-1 i_main_h1_right">
+									</div>
+							   </section> <!--hone-->
+					
+			              </div>
+					</section>
                           
                    <section class="registration_btn col col-md-12">
 						<div class = "form-group" >
@@ -62,6 +88,8 @@
 						</div><!-- form-group submit button -->
 					</section> <!-- registration button -->
 					
+
+						
 					
 			</fieldset>
 	</form><!-- registration form -->

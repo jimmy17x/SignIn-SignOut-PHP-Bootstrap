@@ -1,6 +1,17 @@
 <section class="login_main col col-lg-12">
 	<form  class = "login form-horizontal"  action = "../public/index.php" method = "post">
-		<legend><h2><b>Login</b></h2></legend>
+		<legend>
+			<h3>
+				<section class = "hone row">
+					<div id = "index_main_h1" class = "col-lg-3">
+						 <b>Login:</b> 
+					 </div>
+					 <div class =  "col-lg-9 i_main_h1_right">
+					</div>
+		       </section> <!--hone-->
+				
+			</h3>
+		</legend>
 			<fieldset>
 				<section class=" login_user col">
 					<label class=" control-label " for="username"> Username
@@ -30,7 +41,19 @@
                            
 			</fieldset>
 	</form><!-- login form-->
-	<div> <a href= "forgot.php"> Forgot Password ?  </a></div>
+	<div> 
+		
+				<section class = "hone row">
+					<div id = "index_main_h1" class = "col-lg-4">
+						<a href= "forgot.php" > I forgot my password   </a>
+					 </div>
+					 <div class =  "col-lg-8 i_main_h1_right">
+					</div>
+		       </section> <!--hone-->
+				
+			
+	
+	</div>
 		<section id = "login_fb">
 			Or  
 			<br>
